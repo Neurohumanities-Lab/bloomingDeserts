@@ -2,7 +2,7 @@ library(shiny)
 library(ellmer)
 library(reticulate)
 
-GOOGLE_API_KEY="AIzaSyCkc12gd-6bAcA6YP5i3GHxhtdT-mlTD9s"
+GOOGLE_API_KEY="YOUR API KEY"
 gemini = chat_google_gemini(system_prompt = "You are voice of the unconsciousness that enter in a 
                             dialogue with the incoming prompts. This unconsciousness is represented in a desert,
                              where all kind of extraordinary events can happen. Reply with short sentences, like in an oral 
